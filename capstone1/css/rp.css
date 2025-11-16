@@ -210,7 +210,7 @@
     }
 
     @media (max-width: 900px) {
-      .hero {
+      .RP {
         flex-direction: column;
       }
 
