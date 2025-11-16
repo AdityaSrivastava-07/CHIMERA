@@ -81,7 +81,6 @@
       color: var(--accent);
     }
 
-    /* ======= Hero Section ======= */
     .RP {
       display: flex;
       justify-content: space-between;
@@ -107,7 +106,6 @@
       line-height: 1.6;
     }
 
-    /* ======= Progress Section ======= */
     .progress-card {
       margin-top: 25px;
       background: rgba(255, 255, 255, 0.05);
@@ -140,7 +138,6 @@
       color: #ffda7b;
     }
 
-    /* ======= Premium Reward ======= */
     .premium-box {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 15px;
