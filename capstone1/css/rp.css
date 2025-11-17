@@ -50,18 +50,19 @@
     }
 
     .logo-section h1 {
-      font-size: 32px;
-      background: linear-gradient(90deg, var(--gold1), var(--gold2), var(--gold3), var(--gold2));
+      font-size: 36px;
+      background: linear-gradient(90deg, magenta, yellow, magenta, yellow);
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      -webkit-text-fill-color: transparent; 
+      margin: 0;
       animation: shine 5s linear infinite;
       background-size: 300%;
     }
 
     .logo-section p {
-      font-size: 13px;
-      color: #ffd861;
-      margin-top: 4px;
+      color: #ffcb00;
+      margin: 0;
+      font-size: 14px;
     }
 
     nav ul {
@@ -77,8 +78,9 @@
       transition: color 0.3s;
     }
 
-    nav a:hover {
-      color: var(--accent);
+    .nav-links a:hover,.nav-links a.active {
+      color: #f4b400;
+      text-shadow: 0 0 10px #f4b400;
     }
 
     .RP {
@@ -95,9 +97,11 @@
 
     .RP h2 {
       font-size: 56px;
-      background: linear-gradient(90deg, var(--gold1), var(--gold2), var(--gold3));
+      background: linear-gradient(90deg, magenta, yellow, magenta, yellow);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      animation: shine 5s linear infinite;
+      background-size: 20%;
     }
 
     .RP p {
@@ -138,11 +142,23 @@
       color: #ffda7b;
     }
 
+    .progress-card:hover{
+      box-shadow: 0 0 25px rgba(244, 180, 0, 0.3);
+    }
+
     .premium-box {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 15px;
       padding: 20px;
       border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .premium-box:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 25px rgba(244, 180, 0, 0.3);
     }
 
     .premium-box h3 {
@@ -161,6 +177,63 @@
       color: #ddd;
       line-height: 1.5;
     }
+
+    .tiers-box {
+  margin-top: 40px;
+  padding: 25px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.tiers-box h3 {
+  margin-bottom: 15px;
+  color: #f4b400;
+}
+
+.tier-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.tier {
+  background: rgba(255,255,255,0.06);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+    .missions-box {
+  margin-top: 40px;
+  padding: 25px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.mission-list {
+  font-size: 15px;
+  color: #ddd;
+  line-height: 1.8;
+  list-style: none;
+  padding-left: 0;
+}
+.missions-box:hover{
+  box-shadow: 0 0 25px rgba(244, 180, 0, 0.3);
+}
+
+    .season-info {
+  margin-top: 40px;
+  background: rgba(255,255,255,0.05);
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  line-height: 1.8;
+}
+
+.season-info:hover{
+  box-shadow: 0 0 25px rgba(244, 180, 0, 0.3);
+}
 
     .tiers {
       padding: 60px 8%;
